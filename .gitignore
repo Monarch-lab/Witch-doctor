@@ -365,3 +365,7 @@ FodyWeavers.xsd
 /ProjectSettings
 /UserSettings
 /Assets/Trash
+/Assets/Scenes
+/Assets/Prefabs
+*.inputactions
+
