@@ -8,7 +8,7 @@ public class GameInput : MonoBehaviour
 
     private PlayerInputActions playerInputActions;
 
-    // Событие для взаимодействия
+    // РЎРѕР±С‹С‚РёРµ РґР»СЏ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ
     public event EventHandler OnInteractAction;
 
     private void Awake()
@@ -17,13 +17,13 @@ public class GameInput : MonoBehaviour
         playerInputActions = new PlayerInputActions();
         playerInputActions.Enable();
 
-        // Подписываемся на события ввода
+        // РџРѕРґРїРёСЃС‹РІР°РµРјСЃСЏ РЅР° СЃРѕР±С‹С‚РёСЏ РІРІРѕРґР°
         playerInputActions.Player.Interact.performed += Interact_performed;
     }
 
     private void OnDestroy()
     {
-        // Отписываемся при уничтожении объекта
+        // РћС‚РїРёСЃС‹РІР°РµРјСЃСЏ РїСЂРё СѓРЅРёС‡С‚РѕР¶РµРЅРёРё РѕР±СЉРµРєС‚Р°
         playerInputActions.Player.Interact.performed -= Interact_performed;
 
         playerInputActions.Dispose();

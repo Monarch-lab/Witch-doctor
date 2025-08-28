@@ -362,12 +362,10 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Assets/Sprites
-/Library
 /ProjectSettings
-/Temp
 /UserSettings
 /Assets/Trash
 /Assets/Scenes
+/Assets/Prefabs
 *.inputactions
-/Assets/Prefabs/Objects/Chest.prefab
-/Assets/Prefabs/Player/Player.prefab
+

@@ -90,12 +90,12 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     ""maps"": [
         {
             ""name"": ""Player"",
-            ""id"": ""64f14369-2c4d-4ff7-90b4-7c36d860c3e2"",
+            ""id"": ""c814d2b8-6a46-4258-82fa-d464eebd9f48"",
             ""actions"": [
                 {
                     ""name"": ""Move"",
                     ""type"": ""Value"",
-                    ""id"": ""740dd1d3-4029-4109-83ba-ac49dea09616"",
+                    ""id"": ""7bc95d77-5bbc-43c4-bbfb-ec6de93d94c4"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -104,7 +104,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Interact"",
                     ""type"": ""Value"",
-                    ""id"": ""387a982d-855a-4b1e-8799-4b3a92162227"",
+                    ""id"": ""a502265c-2e32-472a-ba5b-90c40f8a647f"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -114,7 +114,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": ""WASD"",
-                    ""id"": ""68f53c1a-564f-4c86-b58f-2da430a7ee3c"",
+                    ""id"": ""ba0080c5-7d5d-46b4-a3c0-097086411f08"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -125,7 +125,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""f72c8b88-a542-4fcd-af6e-d07ec9946a11"",
+                    ""id"": ""85dbd9f4-2725-44ef-b403-b05fc65e88e7"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -136,7 +136,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""2b093c4e-72b2-4448-9e8e-99f458f828a6"",
+                    ""id"": ""178a29c3-41b9-40e9-a7d1-5394f22a7430"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -147,7 +147,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""0adcc56f-f579-4361-8703-ba1a6814598e"",
+                    ""id"": ""0a9a274b-13ca-4c8b-9e89-7d178ddba556"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -158,7 +158,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""933463b9-9d29-4f38-9adc-02db237e57f2"",
+                    ""id"": ""d80cbc21-8a87-471b-ae43-a1206ff9b32e"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -169,7 +169,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""a2c84db3-7839-41b7-8975-77affd70ecd5"",
+                    ""id"": ""30fdc851-579b-4121-8b6f-49baada7a5fe"",
                     ""path"": ""<Keyboard>/e"",
                     ""interactions"": """",
                     ""processors"": """",
