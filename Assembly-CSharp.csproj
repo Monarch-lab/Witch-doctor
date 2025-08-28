@@ -61,6 +61,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.2.1f1-x86_64\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Chest\Chest.cs" />
+    <Compile Include="Assets\Scripts\Game\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\GameInput.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\PlayerInput\PlayerInputActions.cs" />
