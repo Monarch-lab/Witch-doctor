@@ -369,3 +369,5 @@ FodyWeavers.xsd
 /Assets/Trash
 /Assets/Scenes
 *.inputactions
+/Assets/Prefabs/Objects/Chest.prefab
+/Assets/Prefabs/Player/Player.prefab
