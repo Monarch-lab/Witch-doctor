@@ -18,4 +18,4 @@ public class Player : MonoBehaviour
         inputVector = inputVector.normalized;
         rb.MovePosition(rb.position + inputVector * (moveSpeed + Time.fixedDeltaTime));
     }
-} 
+}
