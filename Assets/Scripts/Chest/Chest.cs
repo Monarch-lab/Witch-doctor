@@ -19,13 +19,13 @@ public class Chest : MonoBehaviour, IInteractable
     private void OpenChest()
     {
         isOpen = true;
-        Debug.Log("Сундук открыт!");
-        // Здесь логика открытия: анимация, выпадение лута и т.д.
+        Debug.Log("РЎСѓРЅРґСѓРє РѕС‚РєСЂС‹С‚!");
+        // Р—РґРµСЃСЊ Р»РѕРіРёРєР° РѕС‚РєСЂС‹С‚РёСЏ: Р°РЅРёРјР°С†РёСЏ, РІС‹РїР°РґРµРЅРёРµ Р»СѓС‚Р° Рё С‚.Рґ.
     }
 
     private void CloseChest()
     {
         isOpen = false;
-        Debug.Log("Сундук закрыт!");
+        Debug.Log("РЎСѓРЅРґСѓРє Р·Р°РєСЂС‹С‚!");
     }
 }

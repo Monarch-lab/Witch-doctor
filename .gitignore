@@ -362,10 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Assets/Sprites
-/Library
 /ProjectSettings
-/Temp
 /UserSettings
 /Assets/Trash
-/Assets/Scenes
-*.inputactions

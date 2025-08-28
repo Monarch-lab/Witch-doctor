@@ -8,13 +8,13 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        // Подписываемся на события ввода
+        // РџРѕРґРїРёСЃС‹РІР°РµРјСЃСЏ РЅР° СЃРѕР±С‹С‚РёСЏ РІРІРѕРґР°
         GameInput.Instance.OnInteractAction += GameInput_OnInteractAction;
     }
 
     private void OnDestroy()
     {
-        // Отписываемся при уничтожении
+        // РћС‚РїРёСЃС‹РІР°РµРјСЃСЏ РїСЂРё СѓРЅРёС‡С‚РѕР¶РµРЅРёРё
         if (GameInput.Instance != null)
         {
             GameInput.Instance.OnInteractAction -= GameInput_OnInteractAction;
@@ -35,12 +35,12 @@ public class PlayerController : MonoBehaviour
             if (collider.TryGetComponent(out IInteractable interactable))
             {
                 interactable.Interact(this);
-                break; // Взаимодействуем только с первым объектом
+                break; // Р’Р·Р°РёРјРѕРґРµР№СЃС‚РІСѓРµРј С‚РѕР»СЊРєРѕ СЃ РїРµСЂРІС‹Рј РѕР±СЉРµРєС‚РѕРј
             }
         }
     }
 
-    // Визуализация радиуса взаимодействия в редакторе
+    // Р’РёР·СѓР°Р»РёР·Р°С†РёСЏ СЂР°РґРёСѓСЃР° РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ РІ СЂРµРґР°РєС‚РѕСЂРµ
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
