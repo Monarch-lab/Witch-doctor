@@ -71,10 +71,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7385356962502096847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33f4d199c152d1f43adb3ef39e876897, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bd1a7f7e14326448823aeb178e215ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
-  moveSpeed: 0.3
+  moveSpeed: 0.1
 --- !u!114 &3223789937890424655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7385356962502096847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4efc4b42adad2654da5b07caaa350c93, type: 3}
+  m_Script: {fileID: 11500000, guid: b2ac11d64cc54d74b8e4114d32b5e391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   interactionRange: 2
